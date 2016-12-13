@@ -1,28 +1,32 @@
 # Web Traffic Visualizer
 
-### Single Node Web Traffic Data API Calls
+## Demo Web Traffic Data API Calls
+
+Base_Url : http://webtraffic.nrupeshpatel.com/api/v1
+
+### Single Data Center Web Traffic Data API Calls
 
 | Request | Endpoint     | Description                 |
 |---------|--------------|-----------------------------|
 | GET     | `{base_url}/node/one/normal` | Fetch traffic data for single node application with normal traffic |
-| GET     | `{base_url}/node/one/medium` | Fetch traffic data for single node application with medium traffic |
-| GET     | `{base_url}/node/one/heavy` | Fetch traffic data for single node application with heavy traffic |
+| GET     | `{base_url}/node/one/warning` | Fetch traffic data for single node application with warning traffic |
+| GET     | `{base_url}/node/one/danger` | Fetch traffic data for single node application with danger traffic |
 
-### Two Node Web Traffic Data API Calls
+### Two Data Centers Web Traffic Data API Calls
 
 | Request | Endpoint     | Description                 |
 |---------|--------------|-----------------------------|
 | GET     | `{base_url}/node/two/normal` | Fetch traffic data for two node application with normal traffic |
-| GET     | `{base_url}/node/two/medium` | Fetch traffic data for two node application with medium traffic |
-| GET     | `{base_url}/node/two/heavy` | Fetch traffic data for two node application with heavy traffic |
+| GET     | `{base_url}/node/two/warning` | Fetch traffic data for two node application with warning traffic |
+| GET     | `{base_url}/node/two/danger` | Fetch traffic data for two node application with danger traffic |
 
-### Three Node Web Traffic Data API Calls
+### Three Data Centers Web Traffic Data API Calls
 
 | Request | Endpoint     | Description                 |
 |---------|--------------|-----------------------------|
 | GET     | `{base_url}/node/three/normal` | Fetch traffic data for three node application with normal traffic |
-| GET     | `{base_url}/node/three/medium` | Fetch traffic data for three node application with medium traffic |
-| GET     | `{base_url}/node/three/heavy` | Fetch traffic data for three node application with heavy traffic |
+| GET     | `{base_url}/node/three/warning` | Fetch traffic data for three node application with warning traffic |
+| GET     | `{base_url}/node/three/danger` | Fetch traffic data for three node application with danger traffic |
 
 ## Contributing
 
