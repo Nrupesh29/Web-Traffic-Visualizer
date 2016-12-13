@@ -1,10 +1,15 @@
+<img src="http://nrupeshpatel.com/webtraffic/GitHub/logo.png" width="28%" align="left">
+
 # Web Traffic Visualizer
 
+Web Traffic Visualizer is made using Netflix Vizceral Project to visualize the web traffic data. Data demonstated here is not real and was generated using custom API's. 
+
+<br /><br /><br />
 ## Demo Web Traffic Data API Calls
 
 Base_Url : http://webtraffic.nrupeshpatel.com/api/v1
 
-### Single Data Center Web Traffic Data API Calls
+### Single Data Center Web Traffic Data
 
 | Request | Endpoint     | Description                 |
 |---------|--------------|-----------------------------|
@@ -12,7 +17,7 @@ Base_Url : http://webtraffic.nrupeshpatel.com/api/v1
 | GET     | `{base_url}/node/one/warning` | Fetch traffic data for single node application with warning traffic |
 | GET     | `{base_url}/node/one/danger` | Fetch traffic data for single node application with danger traffic |
 
-### Two Data Centers Web Traffic Data API Calls
+### Two Data Centers Web Traffic Data
 
 | Request | Endpoint     | Description                 |
 |---------|--------------|-----------------------------|
@@ -20,7 +25,7 @@ Base_Url : http://webtraffic.nrupeshpatel.com/api/v1
 | GET     | `{base_url}/node/two/warning` | Fetch traffic data for two node application with warning traffic |
 | GET     | `{base_url}/node/two/danger` | Fetch traffic data for two node application with danger traffic |
 
-### Three Data Centers Web Traffic Data API Calls
+### Three Data Centers Web Traffic Data
 
 | Request | Endpoint     | Description                 |
 |---------|--------------|-----------------------------|
