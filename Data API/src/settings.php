@@ -18,10 +18,10 @@ return [
 
         // Database connection settings
         "db" => [
-            "host" => 'localhost',
-            "dbname" => 'androd5_webtraffic',
-            "user" => 'androd5_admin',
-            "pass" => 'admin12345'
+            "host" => '<your-db-host>',
+            "dbname" => '<your-db-name>',
+            "user" => '<your-db-user-name>',
+            "pass" => '<your-db-user-password>'
         ],
         
     ],
