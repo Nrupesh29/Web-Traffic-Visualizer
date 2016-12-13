@@ -1,1 +1,47 @@
-# Web-Traffic-Visualizer
+# Web Traffic Visualizer
+
+### Single Node Web Traffic Data API Calls
+
+| Request | Endpoint     | Description                 |
+|---------|--------------|-----------------------------|
+| GET     | `{base_url}/node/one/normal` | Fetch traffic data for single node application with normal traffic |
+| GET     | `{base_url}/node/one/medium` | Fetch traffic data for single node application with medium traffic |
+| GET     | `{base_url}/node/one/heavy` | Fetch traffic data for single node application with heavy traffic |
+
+### Two Node Web Traffic Data API Calls
+
+| Request | Endpoint     | Description                 |
+|---------|--------------|-----------------------------|
+| GET     | `{base_url}/node/two/normal` | Fetch traffic data for two node application with normal traffic |
+| GET     | `{base_url}/node/two/medium` | Fetch traffic data for two node application with medium traffic |
+| GET     | `{base_url}/node/two/heavy` | Fetch traffic data for two node application with heavy traffic |
+
+### Three Node Web Traffic Data API Calls
+
+| Request | Endpoint     | Description                 |
+|---------|--------------|-----------------------------|
+| GET     | `{base_url}/node/three/normal` | Fetch traffic data for three node application with normal traffic |
+| GET     | `{base_url}/node/three/medium` | Fetch traffic data for three node application with medium traffic |
+| GET     | `{base_url}/node/three/heavy` | Fetch traffic data for three node application with heavy traffic |
+
+## Contributing
+
+1. Search previous suggestions before making a new one, as your's may be a duplicate.
+1. Create an issue and describe your idea.
+2. [Fork it] (https://github.com/Nrupesh29/Web-Traffic-Visualizer/fork)
+3. Create a new branch for your feature (`git checkout -b my-new-feature`)
+4. Commit the changes (`git commit -am 'Add some feature'`)
+5. Publish the branch (`git push origin my-new-feature`)
+6. Create a new Pull Request
+7. Done!
+
+Thank you for your suggestions!
+
+## License
+
+Web Traffic Visualizer is released under the [MIT License](https://github.com/Nrupesh29/Web-Traffic-Visualizer/blob/master/LICENSE.md).
+
+## Contributor
+
+| [![Nrupesh Patel](https://avatars.githubusercontent.com/nrupesh29?s=100)<br /><sub>Nrupesh Patel<br />CMPE 272</sub>](https://github.com/Nrupesh29)<br /> |
+| :---: |
