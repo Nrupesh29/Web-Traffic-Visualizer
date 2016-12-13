@@ -3,13 +3,14 @@
 
 Web Traffic Visualizer is made using Netflix Vizceral Project to visualize the web traffic data. Data demonstated here is not real and was generated using custom API's. 
 
+<br /><br /><br />
 ## Demo Link
 
 http://webtraffic.nrupeshpatel.com
 
 ## Demo Web Traffic Data API Calls
 
-Base_URL : http://webtraffic.nrupeshpatel.com/api/v1
+BASE URL : http://webtraffic.nrupeshpatel.com/api/v1
 
 ### Single Data Center Web Traffic Data
 
