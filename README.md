@@ -8,7 +8,7 @@ Web Traffic Visualizer is made using Netflix Vizceral Project to visualize the w
 
 http://webtraffic.nrupeshpatel.com
 
-## Demo Web Traffic Data API Calls
+## Demo Data API Calls
 
 BASE URL : http://webtraffic.nrupeshpatel.com/api/v1
 
@@ -40,6 +40,7 @@ BASE URL : http://webtraffic.nrupeshpatel.com/api/v1
 <img src="http://nrupeshpatel.com/webtraffic/GitHub/screen%231.png">
 <img src="http://nrupeshpatel.com/webtraffic/GitHub/screen%232.png">
 <img src="http://nrupeshpatel.com/webtraffic/GitHub/screen%233.png">
+<img src="http://nrupeshpatel.com/webtraffic/GitHub/screen%234.png">
 
 ## Contributing
 
