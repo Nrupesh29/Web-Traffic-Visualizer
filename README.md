@@ -1,5 +1,4 @@
-<img src="http://nrupeshpatel.com/webtraffic/GitHub/logo.png" width="28%" align="left">
-
+<img src="http://nrupeshpatel.com/webtraffic/GitHub/" width="28%" align="left">
 # Web Traffic Visualizer
 
 Web Traffic Visualizer is made using Netflix Vizceral Project to visualize the web traffic data. Data demonstated here is not real and was generated using custom API's. 
@@ -45,6 +44,10 @@ Base_Url : http://webtraffic.nrupeshpatel.com/api/v1
 7. Done!
 
 Thank you for your suggestions!
+
+## Technologies Used
+<img src="http://nrupeshpatel.com/webtraffic/GitHub/vizceral.png" width="12%" align="left" />
+<img src="http://nrupeshpatel.com/webtraffic/GitHub/slim.png" width="36%" />
 
 ## License
 
