@@ -120,8 +120,8 @@ BASE URL: `{elastic_beanstalk_url}/api/v1/`
 Thank you for your suggestions!
 
 ## Technologies Used
-<img src="http://nrupeshpatel.com/webtraffic/GitHub/slim.png" width="36%" /><br /><br />
 <img src="http://nrupeshpatel.com/webtraffic/GitHub/vizceral.png" width="12%" /><br /><br />
+<img src="http://nrupeshpatel.com/webtraffic/GitHub/slim.png" width="36%" /><br /><br />
 <img src="http://nrupeshpatel.com/webtraffic/GitHub/mysql.png" width="16%" />
 
 ## License
@@ -130,7 +130,7 @@ Web Traffic Visualizer is released under the [MIT License](https://github.com/Nr
 
 ## Credits
 
-Web Template - ![gentelella](https://github.com/puikinsh/gentelella)
+Web Template - [gentelella](https://github.com/puikinsh/gentelella)
 
 ## Contributor
 
