@@ -8,6 +8,10 @@ Web Traffic Visualizer is made using Netflix Vizceral Project to visualize the w
 
 http://webtraffic.nrupeshpatel.com
 
+## Project Deliverables
+
+[Project Report](deliverables/Project-Report.pdf)
+
 ## Demo Data API Calls
 
 BASE URL : http://webtraffic.nrupeshpatel.com/api/v1
