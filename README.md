@@ -1,9 +1,20 @@
-<img src="http://nrupeshpatel.com/webtraffic/GitHub/logo-wtv.png" width="28%" align="left">
-# Web Traffic Visualizer
+<p align="center"><img src="http://nrupeshpatel.com/webtraffic/GitHub/logo-wtv.png" width="40%" /></p>
+<h1 align="center">Web Traffic Visualizer</h1>
 
-Web Traffic Visualizer is made using Netflix Vizceral Project to visualize the web traffic data. Data demonstated here is not real and was generated using custom API's. 
+<p align="center">
+<a href="https://github.com/Nrupesh29/Web-Traffic-Visualizer/blob/master/LICENSE.md" rel="Licence"><img src="https://img.shields.io/github/license/mashape/apistatus.svg" /></a>
+<a href="" rel="Platform"><img src="https://img.shields.io/badge/platform-Web-orange.svg" /></a>
+<a href="https://github.com/Nrupesh29/Web-Traffic-Visualizer/issues?q=is%3Aopen+is%3Aissue" rel="GitHub issues"><img src="https://img.shields.io/badge/issues-0%20open-green.svg" /></a>
+<a href="https://github.com/Nrupesh29/Web-Traffic-Visualizer/issues?q=is%3Aissue+is%3Aclosed" rel="GitHub closed issues"><img src="https://img.shields.io/badge/issues-0%20closed-red.svg" /></a>
+</p>
+<table>
+<tr>
+<td>
+<p align="center"><b><i>Web Traffic Visualizer</i></b> is made using Netflix Vizceral Project to visualize the web traffic data. Data demonstated here is not real and was generated using custom API's. </p>
+</td>
+</tr>
+</table>
 
-<br /><br /><br />
 ## Demo Link
 
 http://webtraffic.nrupeshpatel.com
