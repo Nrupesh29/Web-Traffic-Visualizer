@@ -8,21 +8,40 @@ Web Traffic Visualizer is made using Netflix Vizceral Project to visualize the w
 
 http://webtraffic.nrupeshpatel.com
 
+## Table of content
+
+- [Project Deliverables](#project-deliverables)
+- [Demo Data API Calls](#demo-data-api-calls)
+    - [One Data Center](#one-data-center-web-traffic-data)
+    - [Two Data Center](#two-data-centers-web-traffic-data)
+    - [Three Data Center](#three-data-centers-web-traffic-data)
+- [Sample API Response](#sample-api-response)
+- [Screenshots](#screenshots)
+- [Installation](#installation)
+    - [AWS Elastic Beanstalk Installation](#aws-elastic-beanstalk-installation)
+    - [MySQL Database Connection with EBS](#mysql-database-connection-with-ebs)
+    - [Creating Database Tables](#creating-database-tables)
+- [Contributing](#contributing)
+- [Technologies Used](#technologies-used)
+- [License](#license)
+- [Credits](#credits)
+- [Contributor](#contributor)
+
 ## Project Deliverables
 
 [Project Report](deliverables/Project-Report.pdf)
 
 ## Demo Data API Calls
 
-BASE URL : http://webtraffic.nrupeshpatel.com/api/v1
+BASE URL : `http://webtraffic.nrupeshpatel.com/api/v1`
 
-### Single Data Center Web Traffic Data
+### One Data Center Web Traffic Data
 
 | Request | Endpoint     | Description                 |
 |---------|--------------|-----------------------------|
-| GET     | `{base_url}/node/one/normal` | Fetch traffic data for single node application with normal traffic |
-| GET     | `{base_url}/node/one/warning` | Fetch traffic data for single node application with warning traffic |
-| GET     | `{base_url}/node/one/danger` | Fetch traffic data for single node application with danger traffic |
+| GET     | `{base_url}/node/one/normal` | Fetch traffic data for one node application with normal traffic |
+| GET     | `{base_url}/node/one/warning` | Fetch traffic data for one node application with warning traffic |
+| GET     | `{base_url}/node/one/danger` | Fetch traffic data for one node application with danger traffic |
 
 ### Two Data Centers Web Traffic Data
 
@@ -39,6 +58,101 @@ BASE URL : http://webtraffic.nrupeshpatel.com/api/v1
 | GET     | `{base_url}/node/three/normal` | Fetch traffic data for three node application with normal traffic |
 | GET     | `{base_url}/node/three/warning` | Fetch traffic data for three node application with warning traffic |
 | GET     | `{base_url}/node/three/danger` | Fetch traffic data for three node application with danger traffic |
+
+
+## Sample API Response
+
+Response for this `GET` request `http://webtraffic.nrupeshpatel.com/api/v1/node/one/warning` is shown below
+```json
+{
+    "renderer": "global",
+    "name": "edge",
+    "nodes": [
+        {
+            "name": "INTERNET"
+        },
+        {
+            "renderer": "region",
+            "name": "us-east-1",
+            "nodes": [
+                {
+                    "name": "server 1"
+                },
+                {
+                    "name": "server 2"
+                },
+                {
+                    "name": "server 3"
+                },
+                {
+                    "name": "server 4"
+                },
+                {
+                    "name": "INTERNET"
+                }
+            ],
+            "connections": [
+                {
+                    "source": "INTERNET",
+                    "target": "server 1",
+                    "metrics": {
+                        "normal": 830.712,
+                        "warning": 13139.416,
+                        "danger": 231.102000001
+                    }
+                },
+                {
+                    "source": "INTERNET",
+                    "target": "server 2",
+                    "metrics": {
+                        "normal": 830.712,
+                        "warning": 13139.416,
+                        "danger": 231.102000001
+                    }
+                },
+                {
+                    "source": "server 1",
+                    "target": "server 3",
+                    "metrics": {
+                        "normal": 830.712,
+                        "warning": 13139.416,
+                        "danger": 231.102000001
+                    }
+                },
+                {
+                    "source": "INTERNET",
+                    "target": "server 4",
+                    "metrics": {
+                        "normal": 830.712,
+                        "warning": 13139.416,
+                        "danger": 231.102000001
+                    }
+                },
+                {
+                    "source": "server 3",
+                    "target": "server 4",
+                    "metrics": {
+                        "normal": 830.712,
+                        "warning": 13139.416,
+                        "danger": 231.102000001
+                    }
+                }
+            ]
+        }
+    ],
+    "connections": [
+        {
+            "source": "INTERNET",
+            "target": "us-east-1",
+            "metrics": {
+                "normal": 830.712,
+                "warning": 13139.416,
+                "danger": 231.102000001
+            }
+        }
+    ]
+}
+```
 
 ## Screenshots
 <img src="http://nrupeshpatel.com/webtraffic/GitHub/screen%231.png">
